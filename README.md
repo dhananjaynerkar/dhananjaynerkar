@@ -1,5 +1,10 @@
 # DHANANJAY NERKAR
 
+## About
+
+The profile index for verified AI/ML work, focused on retrieval-augmented generation, local LLM applications, applied machine learning, and data/ML engineering. Project details and metrics should be read from the linked repositories.
+
+
 ## AI/ML Engineer Candidate | RAG, LLM Applications, Applied Machine Learning
 
 I build evidence-grounded AI applications and evaluation-aware machine learning systems with Python.
