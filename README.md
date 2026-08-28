@@ -1,308 +1,63 @@
-# Hey 👋, I'm Dhananjay Nerkar
+# DHANANJAY NERKAR
 
-### Python | SQL | ML | LLM | RAG | Aspiring AI/ML Engineer 
+## AI/ML Engineer Candidate | RAG, LLM Applications, Applied Machine Learning
 
-<div align="center">
-  <a href="mailto:nerkarr.dhananjay@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Dhananjay-red?style=flat-square&logo=gmail" />
-  </a>
-  <a href="https://www.linkedin.com/in/dhananjay-nerkar">
-    <img src="https://img.shields.io/badge/LinkedIn-Dhananjay-blue?style=flat-square&logo=linkedin" />
-  </a>
-  <a href="https://github.com/Dhananjay1509">
-    <img src="https://img.shields.io/badge/GitHub-Dhananjay1509-181717?style=flat-square&logo=github" />
-  </a>
-</div>
+I build evidence-grounded AI applications and evaluation-aware machine learning systems with Python.
 
----
+My strongest work combines local LLM inference, document ingestion, embeddings, hybrid retrieval, pgvector, reranking, citations, access control, and reproducible model evaluation.
 
-## 🚀 About Me
+## Featured Projects
 
-Passionate about Artificial Intelligence, Machine Learning, Deep Learning, LLMs, and Data Analytics.
+### 1. AI-Powered Port Management System
 
-Currently building projects with Python, NLP, RAG, LLM, and modern AI technologies while continuously expanding my knowledge of intelligent systems and real-world AI applications.
+Local-first RAG and workflow platform built with Python, FastAPI, PostgreSQL, pgvector, Ollama, and bge-m3.
 
-- 🤖 Exploring Machine Learning, Deep Learning, NLP & Generative AI
-- 🚀 Open to AI Engineer, ML Engineer, and Data Scientist opportunities
-- 🧠 Skilled in Python, Machine Learning, Deep Learning, Streamlit, Flask, SQL
-- ☁️ Interested in MLOps, Model Deployment, and Cloud AI Solutions
-- 📚 Certified by Coding Ninjas, DataCamp, PW Skills, LinkedIn Learning
+- Adaptive PDF/OCR ingestion with page-level provenance.
+- Hybrid lexical and dense retrieval with reciprocal rank fusion and CrossEncoder reranking.
+- Role and tenant access controls, cited chat, workflow handoffs, billing and tender support.
+- Documented evaluation checkpoint: AnyHit@5 0.89, EvidenceCoverage@5 0.85, 10/10 reviewed facts covered, and 9/9 citation-valid replays.
 
----
+Repository: https://github.com/dhananjaynerkar/ai_powered_port_management_system
 
-# 🏆 Featured AI/ML Projects
+### 2. ClaimShield
 
-| Project | Highlights |
-|----------|------------|
-| 🚨 Insurance Fraud Detection & Claim Risk Scoring System | End-to-end ML pipeline, XGBoost, LightGBM, CatBoost, SHAP, Streamlit Dashboard, Risk Scoring |
-| 🧠 Insurance Fraud Detection using Deep Neural Network | ANN-based fraud detection, TensorFlow/Keras, SMOTE, ROC-AUC, PR-AUC |
-| 🧠 Wafer Fault Detection System | End-to-end MLOps pipeline, automated model selection, REST APIs, CI/CD |
-| 🔥 Forest Fire Prediction System | Ridge Regression, Gradio UI, Hugging Face Deployment |
-| 🎓 University Admission Predictor | Linear Regression, Streamlit Deployment |
-| 🎯 Advanced Geofencing System | Real-time geolocation monitoring and Firebase integration |
+Deep-learning insurance fraud decision-support workflow built with Python, TensorFlow/Keras, scikit-learn, and imbalanced-learn.
 
----
+- Leakage-aware preprocessing with ColumnTransformer and training-only SMOTE.
+- Regularized ANN with Batch Normalization, Dropout, L2 regularization, Adam, and early stopping.
+- Validation-based threshold tuning and reloadable model/preprocessor/metadata artifacts.
+- Documented test checkpoint: ROC-AUC 0.8161, PR-AUC 0.1829, and fraud recall 0.8811 at threshold 0.30.
 
-## 🚨 Insurance Fraud Detection & Claim Risk Scoring System
+Repository: https://github.com/dhananjaynerkar/claimshield
 
-### Duration
-1–2 Months
+### 3. Insurance Fraud and Claim Risk Pipeline
 
-### Overview
+Time-aware tabular ML workflow with leakage auditing, temporal behavior features, imbalance handling, threshold tuning, business-loss evaluation, and Streamlit scoring.
 
-Built an end-to-end Machine Learning system for detecting fraudulent insurance claims and estimating claim severity. Implemented leakage-safe feature engineering, imbalance handling, explainable AI techniques, and risk-based business decision recommendations.
+Repository: https://github.com/dhananjaynerkar/insurerisk
 
-### Key Features
+### 4. Smart Education Analytics with PySpark
 
-- Fraud Probability Prediction
-- Claim Severity Estimation
-- Leakage-Safe Behavioral Feature Engineering
-- Temporal Validation Strategy
-- Class Imbalance Handling using SMOTE Variants
-- Explainable AI using SHAP
-- Business Loss Optimization
-- Risk-Based Claim Decisions
-- Interactive Streamlit Dashboard
+PySpark RDD, DataFrame, Spark SQL, and Spark ML case study over OULAD data with Docker, Kubernetes manifests, and GitHub Actions checks.
 
-### Machine Learning Models
+Repository: https://github.com/dhananjaynerkar/case_study_apache_spark
 
-- XGBoost
-- LightGBM
-- CatBoost
-- Random Forest
-- Logistic Regression
+## Core Capabilities
 
-### Evaluation Metrics
+- RAG and LLM applications: local inference, grounded generation, prompt controls, citations, and provenance.
+- Retrieval systems: embeddings, hybrid search, pgvector, rank fusion, reranking, and access-controlled context.
+- Machine learning: feature engineering, class-imbalance handling, leakage auditing, threshold tuning, and model evaluation.
+- AI engineering: FastAPI inference services, PostgreSQL-backed workflows, artifact serialization, tests, and readiness checks.
 
-- PR-AUC
-- Recall
-- F2 Score
-- Business Loss
-- Top-K Lift Analysis
+## Engineering Proof
 
-### Tech Stack
+- RAG runtime and security tests, citation validation, ACL boundary checks, and readiness checks.
+- Documented local evaluation and resource limitations instead of unsupported production-scale claims.
+- Reproducible notebooks and model artifacts for the ClaimShield and insurerisk workflows.
 
-`Python` `Pandas` `NumPy` `Scikit-Learn` `Imbalanced-Learn` `XGBoost` `LightGBM` `CatBoost` `SHAP` `Streamlit` `Joblib`
+## Contact
 
-### Repository
+- Email: nerkarr.dhananjay@gmail.com
+- LinkedIn: https://www.linkedin.com/in/dhananjay-nerkar
+- GitHub: https://github.com/dhananjaynerkar
 
-```text
-Add Your GitHub Repository Link Here
-```
-
----
-
-## 🧠 Insurance Fraud Detection using Deep Neural Network
-
-### Duration
-
-1 Month
-
-### Overview
-
-Developed a Deep Learning-based insurance fraud detection system using Artificial Neural Networks (ANN) to classify vehicle insurance claims as fraudulent or legitimate.
-
-### Key Features
-
-- Data Cleaning & Preprocessing
-- Feature Encoding
-- Feature Scaling
-- Class Imbalance Handling using SMOTE
-- Hyperparameter Tuning
-- Threshold Optimization
-- Fraud Classification
-- Model Serialization for Production Usage
-
-### Deep Learning Architecture
-
-- Input Layer
-- Multiple Dense Hidden Layers
-- ReLU Activation
-- Dropout Regularization
-- Sigmoid Output Layer
-
-### Evaluation Metrics
-
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-- PR-AUC
-
-### Tech Stack
-
-`Python` `TensorFlow` `Keras` `Scikit-Learn` `Pandas` `NumPy` `Jupyter Notebook`
-
-### Repository
-
-```text
-Add Your GitHub Repository Link Here
-```
-
----
-
-## 🧠 Wafer Fault Detection System
-
-### Highlights
-
-- Automated Fault Detection Pipeline
-- Model Selection Automation
-- REST API Development
-- CI/CD Integration
-- Cloud Deployment
-- 95% Accuracy
-
-### Tech Stack
-
-`Python` `Scikit-Learn` `XGBoost` `Flask` `MongoDB` `CI/CD`
-
----
-
-## 🔥 Forest Fire Prediction System
-
-### Highlights
-
-- Ridge Regression Model
-- 98.4% Accuracy
-- Gradio User Interface
-- Hugging Face Deployment
-
-### Tech Stack
-
-`Python` `Scikit-Learn` `Pandas` `Gradio`
-
----
-
-## 🎓 University Admission Predictor
-
-### Highlights
-
-- Linear Regression
-- Streamlit Web Application
-- Admission Probability Prediction
-
-### Tech Stack
-
-`Python` `Scikit-Learn` `Streamlit`
-
----
-
-## 🎯 Advanced Geofencing System
-
-### Highlights
-
-- Real-Time Geolocation Tracking
-- Firebase Integration
-- Event-Based Monitoring
-- Location Intelligence Workflows
-
-### Tech Stack
-
-`Python` `Firebase` `APIs`
-
----
-
-# 🛠️ Technical Skills
-
-## Programming Languages
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square)
-
-## Machine Learning
-
-- Supervised Learning
-- Regression
-- Classification
-- Feature Engineering
-- Model Evaluation
-- Hyperparameter Tuning
-- Ensemble Learning
-
-## Deep Learning
-
-- Artificial Neural Networks (ANN)
-- TensorFlow
-- Keras
-
-## Data Science
-
-- EDA
-- Data Cleaning
-- Statistical Analysis
-- Data Visualization
-
-## MLOps & Deployment
-
-- Flask
-- Streamlit
-- Gradio
-- REST APIs
-- GitHub Actions
-- CI/CD
-- Model Deployment
-
-## Libraries & Frameworks
-
-- Pandas
-- NumPy
-- Scikit-Learn
-- TensorFlow
-- Keras
-- XGBoost
-- LightGBM
-- CatBoost
-- Matplotlib
-- Seaborn
-
-## Cloud Platforms
-
-- Hugging Face Spaces
-- Streamlit Cloud
-
----
-
-## 💼 Experience
-
-### Data Science Intern | Oasis Infobyte
-
-- Built machine learning models for classification and forecasting tasks.
-- Conducted exploratory data analysis and feature engineering.
-- Evaluated and optimized predictive models.
-
-### Data Analysis Intern | Bharat Soft Solutions
-
-- Developed analytical dashboards and reports.
-- Worked with Python, SQL, Power BI, and Tableau.
-- Delivered actionable insights through data analysis.
-
----
-
-## 🎓 Education
-
-### Bachelor of Engineering (Computer Engineering)
-
-**Sinhgad Institute of Technology, Lonavala**
-
-2020 – 2024
-
----
-
-## 📬 Connect With Me
-
-📧 Email: **nerkarr.dhananjay@gmail.com**
-
-🔗 LinkedIn: **https://www.linkedin.com/in/dhananjay-nerkar**
-
-💻 GitHub: **https://github.com/Dhananjay1509**
-
----
-
-<div align="center">
-
-### "Building Intelligent Systems That Transform Data Into Impactful Decisions."
-
-⭐ Thanks for visiting my profile!
-
-</div>
