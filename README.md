@@ -2,6 +2,8 @@
 
 ### AI/ML Engineer Candidate · RAG · LLM Applications · Applied Machine Learning
 
+<img src="assets/ai-ml-portfolio-banner.svg" alt="AI and ML engineering portfolio map: document AI, retrieval, models, and applications" width="100%">
+
 I build evidence-grounded AI applications and evaluation-aware machine-learning systems with Python.
 
 My strongest public work combines local LLM inference, document ingestion, embeddings, hybrid retrieval, pgvector, reranking, citations, access control, model artifacts, and reproducible evaluation.
