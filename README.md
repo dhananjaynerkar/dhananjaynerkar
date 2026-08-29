@@ -15,7 +15,7 @@
 
 <p align="center">
   <strong>Supporting web, database, and mobile technologies</strong><br>
-  <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,js,mongodb,firebase,mysql,kotlin,java&theme=dark&perline=5" alt="Verified TypeScript, React, Vite, Node.js, JavaScript, MongoDB, Firebase, MySQL, Kotlin, and Java icons">
+  <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,js,mongodb,firebase,kotlin,java&theme=dark&perline=5" alt="Verified TypeScript, React, Vite, Node.js, JavaScript, MongoDB, Firebase, Kotlin, and Java icons">
 </p>
 
 These icons are a visual index of technologies evidenced across the repositories. Spark, SQL, Pandas, NumPy, Ollama, pgvector, and retrieval methods remain represented in the text stack because the icon source does not provide an equally precise supported icon for each one.
