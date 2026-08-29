@@ -10,15 +10,15 @@
 
 <p align="center">
   <strong>AI / ML and application engineering</strong><br>
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,fastapi,flask,postgres,docker,kubernetes,githubactions&theme=dark&perline=5" alt="Verified Python, TensorFlow, scikit-learn, FastAPI, Flask, PostgreSQL, Docker, Kubernetes, and GitHub Actions icons">
+  <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,fastapi,flask,postgres,docker,kubernetes,githubactions&theme=dark&perline=5" width="100%" alt="Verified Python, TensorFlow, scikit-learn, FastAPI, Flask, PostgreSQL, Docker, Kubernetes, and GitHub Actions icons">
 </p>
 
 <p align="center">
   <strong>Supporting web, database, and mobile technologies</strong><br>
-  <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,js,mongodb,firebase,kotlin,java&theme=dark&perline=5" alt="Verified TypeScript, React, Vite, Node.js, JavaScript, MongoDB, Firebase, Kotlin, and Java icons">
+  <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,js,mongodb,firebase,kotlin,java&theme=dark&perline=5" width="100%" alt="Verified TypeScript, React, Vite, Node.js, JavaScript, MongoDB, Firebase, Kotlin, and Java icons">
 </p>
 
-These icons are a visual index of technologies evidenced across the repositories. Spark, SQL, Pandas, NumPy, Ollama, pgvector, and retrieval methods remain represented in the text stack because the icon source does not provide an equally precise supported icon for each one.
+These icons are a responsive visual index of technologies evidenced across the repositories; the images scale to the available README column width. GitHub keeps the icon count per row fixed because profile READMEs cannot run media queries or JavaScript. Spark, SQL, Pandas, NumPy, Ollama, pgvector, and retrieval methods remain represented in the text stack because the icon source does not provide an equally precise supported icon for each one.
 
 ## About
 
