@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Verified AI and ML technology stack</title>
+  <desc id="desc">A visual stack grouped into RAG and LLM applications, applied machine learning and evaluation, and AI application engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071526"/>
+      <stop offset="0.55" stop-color="#102a42"/>
+      <stop offset="1" stop-color="#1c1739"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f0abfc"/></linearGradient>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .eyebrow { fill: #82a1c1; font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+      .title { fill: #f8fafc; font-size: 31px; font-weight: 800; letter-spacing: -.4px; }
+      .subtitle { fill: #9bb1ca; font-size: 15px; }
+      .section { fill: #dce9f7; font-size: 15px; font-weight: 800; }
+      .sectionHint { fill: #7694b3; font-size: 11px; }
+      .chip { fill: #142e48; stroke: #2f5577; stroke-width: 1.2; }
+      .chipText { fill: #ecf6ff; font-size: 13px; font-weight: 700; }
+      .chipSub { fill: #8eacc8; font-size: 10px; }
+      .footer { fill: #7793b1; font-size: 12px; letter-spacing: 1.7px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="22" fill="url(#bg)"/>
+  <circle cx="1125" cy="-20" r="210" fill="#7c3aed" opacity=".12"/>
+  <circle cx="40" cy="480" r="180" fill="#0891b2" opacity=".09"/>
+  <path d="M32 148 H1168" stroke="#2b4867" stroke-width="1"/>
+  <text x="42" y="52" class="sans eyebrow">AI / ML STACK</text>
+  <text x="42" y="96" class="sans title">Tools I can explain from implementation</text>
+  <text x="42" y="123" class="sans subtitle">Grouped by the systems and workflows demonstrated in my public repositories.</text>
+  <rect x="976" y="38" width="182" height="34" rx="17" fill="#103d4a" stroke="#2a7d8b"/>
+  <circle cx="998" cy="55" r="5" fill="#6ee7b7"/>
+  <text x="1013" y="60" class="sans" fill="#a7f3d0" font-size="12" font-weight="700">EVIDENCE-LED</text>
+
+  <text x="42" y="180" class="sans section">01  RAG + LLM APPLICATIONS</text>
+  <text x="42" y="201" class="sans sectionHint">grounded generation · retrieval quality · provenance</text>
+  <g>
+    <rect x="42" y="220" width="132" height="58" rx="10" class="chip"/><text x="61" y="246" class="sans chipText">RAG</text><text x="61" y="264" class="sans chipSub">grounded apps</text>
+    <rect x="188" y="220" width="168" height="58" rx="10" class="chip"/><text x="207" y="246" class="sans chipText">LLM applications</text><text x="207" y="264" class="sans chipSub">local inference</text>
+    <rect x="370" y="220" width="128" height="58" rx="10" class="chip"/><text x="389" y="246" class="sans chipText">Ollama</text><text x="389" y="264" class="sans chipSub">local models</text>
+    <rect x="512" y="220" width="148" height="58" rx="10" class="chip"/><text x="531" y="246" class="sans chipText">Embeddings</text><text x="531" y="264" class="sans chipSub">dense retrieval</text>
+    <rect x="674" y="220" width="122" height="58" rx="10" class="chip"/><text x="693" y="246" class="sans chipText">pgvector</text><text x="693" y="264" class="sans chipSub">vector search</text>
+    <rect x="810" y="220" width="142" height="58" rx="10" class="chip"/><text x="829" y="246" class="sans chipText">Reranking</text><text x="829" y="264" class="sans chipSub">retrieval quality</text>
+    <rect x="966" y="220" width="192" height="58" rx="10" class="chip"/><text x="985" y="246" class="sans chipText">Citations + provenance</text><text x="985" y="264" class="sans chipSub">evidence boundaries</text>
+  </g>
+
+  <text x="42" y="322" class="sans section">02  APPLIED ML + EVALUATION</text>
+  <text x="42" y="343" class="sans sectionHint">leakage-aware workflows · imbalance handling · model evaluation</text>
+  <g>
+    <rect x="42" y="362" width="148" height="58" rx="10" class="chip"/><text x="61" y="388" class="sans chipText">scikit-learn</text><text x="61" y="406" class="sans chipSub">tabular ML</text>
+    <rect x="204" y="362" width="168" height="58" rx="10" class="chip"/><text x="223" y="388" class="sans chipText">TensorFlow/Keras</text><text x="223" y="406" class="sans chipSub">fraud workflow</text>
+    <rect x="386" y="362" width="118" height="58" rx="10" class="chip"/><text x="405" y="388" class="sans chipText">PySpark</text><text x="405" y="406" class="sans chipSub">data + ML</text>
+    <rect x="518" y="362" width="130" height="58" rx="10" class="chip"/><text x="537" y="388" class="sans chipText">Spark ML</text><text x="537" y="406" class="sans chipSub">classification</text>
+    <rect x="662" y="362" width="138" height="58" rx="10" class="chip"/><text x="681" y="388" class="sans chipText">Evaluation</text><text x="681" y="406" class="sans chipSub">thresholds + metrics</text>
+    <rect x="814" y="362" width="156" height="58" rx="10" class="chip"/><text x="833" y="388" class="sans chipText">Leakage auditing</text><text x="833" y="406" class="sans chipSub">temporal validation</text>
+    <rect x="984" y="362" width="174" height="58" rx="10" class="chip"/><text x="1003" y="388" class="sans chipText">Feature engineering</text><text x="1003" y="406" class="sans chipSub">imbalanced learning</text>
+  </g>
+
+  <path d="M42 443 H1158" stroke="#2b4867" stroke-width="1"/>
+  <text x="42" y="460" class="mono footer">FASTAPI · POSTGRESQL · STREAMLIT · PYTEST · DOCKER · KUBERNETES · PYTHON · SQL</text>
+</svg>
+
