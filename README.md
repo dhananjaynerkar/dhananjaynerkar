@@ -6,13 +6,21 @@
 
 <img src="assets/ai_ml_stack_visual.svg" alt="Verified AI and ML technology stack grouped into RAG and LLM applications, applied machine learning and evaluation, and AI application engineering" width="100%">
 
+## About
+
 I build evidence-grounded AI applications and evaluation-aware machine-learning systems with Python.
 
-My strongest public work combines local LLM inference, document ingestion, embeddings, hybrid retrieval, pgvector, reranking, citations, access control, model artifacts, and reproducible evaluation.
+My public work shows a consistent path from documents and datasets to retrieval or model pipelines, usable application surfaces, and explicit evaluation or provenance checks.
 
-[GitHub](https://github.com/dhananjaynerkar) · [LinkedIn](https://www.linkedin.com/in/dhananjay-nerkar) · [Portfolio](https://portfolio-dhananjay-pi.vercel.app/) · [Resume](https://drive.google.com/file/d/1ECEzfyvgtdTXVBgBlhFwMT5JSecnWnET/view?usp=sharing)
+| Focus | What the repositories demonstrate |
+|---|---|
+| **Grounded GenAI** | Local-first RAG, document ingestion, embeddings, hybrid search, reranking, citations, provenance, and access control |
+| **Applied ML** | Leakage-aware preprocessing, imbalance handling, temporal validation, threshold tuning, explainability, and business-loss framing |
+| **AI application engineering** | FastAPI, Flask, Streamlit, PostgreSQL-backed workflows, serialized artifacts, tests, and bounded CI |
 
 > Portfolio boundary: production deployment, cloud ownership, user scale, and business impact are not claimed unless the linked repository provides evidence.
+
+[GitHub](https://github.com/dhananjaynerkar) · [LinkedIn](https://www.linkedin.com/in/dhananjay-nerkar) · [Portfolio](https://portfolio-dhananjay-pi.vercel.app/) · [Resume](https://drive.google.com/file/d/1ECEzfyvgtdTXVBgBlhFwMT5JSecnWnET/view?usp=sharing)
 
 ---
 
@@ -35,46 +43,53 @@ My strongest public work combines local LLM inference, document ingestion, embed
 | **Applications and Data** | FastAPI · Flask · Streamlit · PostgreSQL · PySpark · Spark SQL |
 | **Quality and Reproducibility** | pytest · Ruff · model/artifact serialization · configuration-driven pipelines · GitHub Actions · Docker · Kubernetes packaging |
 
-## Featured Projects
+## Visual Engineering Pipeline
 
-### 1. [AI-Powered Port Management System](https://github.com/dhananjaynerkar/ai_powered_port_management_system)
+<img src="assets/engineering_layers_visual.svg" alt="Verified AI and ML engineering layers from documents and datasets through retrieval, machine learning, APIs, applications, evaluation, and provenance" width="100%">
 
-**Status:** Local-first prototype; production deployment is not verified.
+The map is a capability view of the repositories below; it does not imply that every project contains every layer or that any system is a production service.
 
-A port-management RAG and workflow platform using Python, FastAPI, PostgreSQL, pgvector, Ollama, and BGE-M3.
+## Flagship System
+
+### [AI-Powered Port Management System](https://github.com/dhananjaynerkar/ai_powered_port_management_system)
+
+**Local-first prototype · RAG and workflow platform · production deployment not verified**
+
+Python, FastAPI, PostgreSQL, pgvector, Ollama, and BGE-M3.
 
 - PDF/OCR ingestion with page-level provenance and quarantine states.
 - Lexical plus dense retrieval with rank fusion, reranking, ACL filtering, and citation validation.
-- Documented corpus-bound checkpoint: AnyHit@5 **0.89**, EvidenceCoverage@5 **0.85**, **10/10** mapped facts covered, and **9/9** citation-valid replays.
+- Corpus-bound checkpoint: AnyHit@5 **0.89**, EvidenceCoverage@5 **0.85**, **10/10** mapped facts covered, and **9/9** citation-valid replays.
 - Includes architecture, security, evaluation, workflow, operations, and bounded CI documentation.
 
-### 2. [ClaimShield](https://github.com/dhananjaynerkar/claimshield)
+## Selected Projects
 
-**Status:** Deep-learning decision-support workflow; dataset redistribution rights require confirmation.
+### [ClaimShield](https://github.com/dhananjaynerkar/claimshield)
 
-A TensorFlow/Keras insurance-fraud workflow with leakage-aware preprocessing, training-only imbalance handling, validation-based threshold selection, and reloadable inference artifacts.
+**Deep-learning decision-support workflow · dataset redistribution rights require confirmation**
 
-- Uses structured preprocessing, class-imbalance handling, regularization, early stopping, and saved model metadata.
+TensorFlow/Keras insurance-fraud workflow with leakage-aware preprocessing, training-only imbalance handling, validation-based threshold selection, and reloadable inference artifacts.
+
 - Documented test checkpoint: ROC-AUC **0.8161**, PR-AUC **0.1829**, and fraud recall **0.8811** at threshold **0.30**.
 - Intended to support investigation, not automatically reject claims.
 
-### 3. [Insurance Fraud and Claim Risk Pipeline](https://github.com/dhananjaynerkar/insurerisk)
+### [Insurance Fraud and Claim Risk Pipeline](https://github.com/dhananjaynerkar/insurerisk)
 
-**Status:** Evaluation-aware local ML pipeline.
+**Evaluation-aware local ML pipeline**
 
-A time-aware tabular ML workflow with leakage auditing, temporal features, imbalance handling, threshold tuning, business-loss analysis, serialized artifacts, and Streamlit scoring.
+Time-aware tabular workflow with leakage auditing, temporal features, imbalance handling, threshold tuning, business-loss analysis, serialized artifacts, and Streamlit scoring.
 
-- Documents the temporal split, evaluation boundary, input provenance, and model-selection trade-offs.
+- Documents temporal validation, evaluation boundaries, input provenance, and model-selection trade-offs.
 - The recorded test-window checkpoint is weak; no production success or business impact is claimed.
 
-### 4. [Smart Education Analytics with PySpark](https://github.com/dhananjaynerkar/case_study_apache_spark)
+### [Smart Education Analytics with PySpark](https://github.com/dhananjaynerkar/case_study_apache_spark)
 
-**Status:** Academic case study with local Docker/Kubernetes packaging; not a production Spark cluster.
+**Academic case study · local Docker/Kubernetes packaging · not a production Spark cluster**
 
-An OULAD-based education analytics workflow covering RDDs, DataFrames, Spark SQL, ETL feature preparation, and Spark ML classification.
+OULAD-based workflow covering RDDs, DataFrames, Spark SQL, ETL feature preparation, and Spark ML classification.
 
-- Provides a Mermaid architecture diagram, notebook runner, generated metrics, Dockerfile, Kubernetes manifests, and GitHub Actions checks.
-- Reported holdout metrics are AUC **0.9706**, accuracy **0.9142**, and F1 **0.9142** for the provided case-study outcome proxy.
+- Includes architecture documentation, notebook runner, generated metrics, Dockerfile, Kubernetes manifests, and GitHub Actions checks.
+- Reported holdout metrics: AUC **0.9706**, accuracy **0.9142**, and F1 **0.9142** for the provided case-study outcome proxy.
 
 ## AI/ML Engineering Capabilities
 
@@ -90,23 +105,9 @@ An OULAD-based education analytics workflow covering RDDs, DataFrames, Spark SQL
 - Prefer reproducible configuration, model contracts, provenance notes, and failure handling.
 - Use tests and CI to verify portable behavior while documenting excluded live-database or fixture-dependent checks.
 
-## Proof of Work
+## Proof of Engineering
 
-```
-Problem
-  ↓
-Data or document corpus
-  ↓
-Retrieval / model pipeline
-  ↓
-API or application
-  ↓
-Evaluation and failure handling
-  ↓
-Reproducibility and bounded deployment
-```
-
-| Capability | Proof |
+| Capability | Repository proof |
 |---|---|
 | **RAG / LLM** | [Port RAG](https://github.com/dhananjaynerkar/ai_powered_port_management_system) → retrieval, citation, ACL, and runtime evaluation |
 | **Fraud ML** | [ClaimShield](https://github.com/dhananjaynerkar/claimshield) → thresholded deep-learning inference and test metrics |
@@ -115,11 +116,20 @@ Reproducibility and bounded deployment
 
 ## Current Focus
 
-Strengthening clean-checkout reproducibility, corpus-versioned evaluation, citation/grounding checks, and clearly bounded local deployment for existing AI/ML systems.
+Strengthening clean-checkout reproducibility, corpus-versioned evaluation, citation and grounding checks, and clearly bounded local deployment for existing AI/ML systems.
+
+No separate “Building Now” project is listed because a current project stage was not independently verified.
+
+## Activity
+
+GitHub activity is visible in the native contribution graph on this profile. It is supporting context, not a claim about production impact, users, or scale.
 
 ## Connect
 
 - Email: nerkarr.dhananjay@gmail.com
 - LinkedIn: https://www.linkedin.com/in/dhananjay-nerkar
 - Portfolio: https://portfolio-dhananjay-pi.vercel.app/
+- GitHub Pages: https://dhananjaynerkar.github.io/
 - GitHub: https://github.com/dhananjaynerkar
+
+
