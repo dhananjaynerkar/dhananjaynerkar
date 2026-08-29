@@ -6,6 +6,20 @@
 
 <img src="assets/ai_ml_stack_visual.svg" alt="Verified AI and ML technology stack grouped into RAG and LLM applications, applied machine learning and evaluation, and AI application engineering" width="100%">
 
+## Verified Technology Icons
+
+<p align="center">
+  <strong>AI / ML and application engineering</strong><br>
+  <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,fastapi,flask,postgres,docker,kubernetes,githubactions&theme=dark&perline=5" alt="Verified Python, TensorFlow, scikit-learn, FastAPI, Flask, PostgreSQL, Docker, Kubernetes, and GitHub Actions icons">
+</p>
+
+<p align="center">
+  <strong>Supporting web, database, and mobile technologies</strong><br>
+  <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,js,mongodb,firebase,mysql,kotlin,java&theme=dark&perline=5" alt="Verified TypeScript, React, Vite, Node.js, JavaScript, MongoDB, Firebase, MySQL, Kotlin, and Java icons">
+</p>
+
+These icons are a visual index of technologies evidenced across the repositories. Spark, SQL, Pandas, NumPy, Ollama, pgvector, and retrieval methods remain represented in the text stack because the icon source does not provide an equally precise supported icon for each one.
+
 ## About
 
 I build evidence-grounded AI applications and evaluation-aware machine-learning systems with Python.
