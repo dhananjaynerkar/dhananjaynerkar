@@ -26,12 +26,16 @@ My public work shows a consistent path from documents and datasets to retrieval 
 
 ## What I Build
 
-| Focus | Repositories | Demonstrated capability |
-|---|---|---|
-| **Grounded document AI** | [Port Management RAG](https://github.com/dhananjaynerkar/ai_powered_port_management_system) | PDF/OCR ingestion, hybrid retrieval, citations, ACLs, local generation |
-| **Fraud and risk ML** | [ClaimShield](https://github.com/dhananjaynerkar/claimshield) · [Insurerisk](https://github.com/dhananjaynerkar/insurerisk) | Leakage-aware preprocessing, imbalance handling, temporal validation, threshold and business-loss analysis |
-| **Data and ML engineering** | [Spark education analytics](https://github.com/dhananjaynerkar/case_study_apache_spark) | RDDs, DataFrames, Spark SQL, ETL, Spark ML, Docker, Kubernetes packaging |
-| **NLP retrieval** | [HealthBot](https://github.com/dhananjaynerkar/HealthBot) | Structured symptom matching, dense retrieval, multilingual normalization, safety rules |
+<table>
+<tr>
+<td width="50%" valign="top"><strong>GROUNDED DOCUMENT AI</strong><br><br>PDF/OCR ingestion, hybrid retrieval, citations, ACLs, and local generation.<br><br><a href="https://github.com/dhananjaynerkar/ai_powered_port_management_system">Port Management RAG</a></td>
+<td width="50%" valign="top"><strong>FRAUD AND RISK ML</strong><br><br>Leakage-aware preprocessing, imbalance handling, temporal validation, threshold tuning, and business-loss analysis.<br><br><a href="https://github.com/dhananjaynerkar/claimshield">ClaimShield</a> · <a href="https://github.com/dhananjaynerkar/insurerisk">Insurerisk</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><strong>DATA AND ML ENGINEERING</strong><br><br>RDDs, DataFrames, Spark SQL, ETL, Spark ML, Docker, and Kubernetes packaging.<br><br><a href="https://github.com/dhananjaynerkar/case_study_apache_spark">Spark education analytics</a></td>
+<td width="50%" valign="top"><strong>NLP RETRIEVAL</strong><br><br>Structured symptom matching, dense retrieval, multilingual normalization, and safety rules.<br><br><a href="https://github.com/dhananjaynerkar/HealthBot">HealthBot</a></td>
+</tr>
+</table>
 
 ## Verified Technology Stack
 
@@ -49,7 +53,21 @@ My public work shows a consistent path from documents and datasets to retrieval 
 
 The map is a capability view of the repositories below; it does not imply that every project contains every layer or that any system is a production service.
 
+## Engineering Toolchain
+
+`Python` → `documents / tabular data` → `retrieval / ML / local LLM` → `FastAPI / Flask / Streamlit` → `PostgreSQL / pgvector` → `tests / artifacts / evaluation` → `Docker / Kubernetes packaging`
+
+This is a verified capability path across the portfolio, not a claim that one repository implements every step.
+
 ## Flagship System
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>PROBLEM SURFACE</strong><br><br>Port-management documents and governed workflows</td>
+<td width="34%" valign="top"><strong>AI PIPELINE</strong><br><br>PDF/OCR → full-text + vector retrieval → rank fusion and reranking → local LLM → citations and ACLs</td>
+<td width="33%" valign="top"><strong>PROOF</strong><br><br>AnyHit@5 0.89 · EvidenceCoverage@5 0.85 · 10/10 facts · 9/9 citation-valid replays</td>
+</tr>
+</table>
 
 ### [AI-Powered Port Management System](https://github.com/dhananjaynerkar/ai_powered_port_management_system)
 
@@ -64,39 +82,25 @@ Python, FastAPI, PostgreSQL, pgvector, Ollama, and BGE-M3.
 
 ## Selected Projects
 
-### [ClaimShield](https://github.com/dhananjaynerkar/claimshield)
+<table>
+<tr>
+<td width="50%" valign="top"><strong><a href="https://github.com/dhananjaynerkar/claimshield">CLAIMSHIELD</a></strong><br><br><strong>ML · FRAUD DECISION SUPPORT</strong><br><br>TensorFlow/Keras workflow with leakage-aware preprocessing, training-only imbalance handling, threshold selection, and reloadable artifacts.<br><br>ROC-AUC 0.8161 · PR-AUC 0.1829 · recall 0.8811 at threshold 0.30<br><br>Dataset redistribution rights require confirmation.</td>
+<td width="50%" valign="top"><strong><a href="https://github.com/dhananjaynerkar/insurerisk">INSURERISK</a></strong><br><br><strong>ML · EVALUATION ENGINEERING</strong><br><br>Time-aware tabular pipeline with leakage auditing, temporal features, imbalance handling, threshold tuning, business-loss analysis, artifacts, and Streamlit scoring.<br><br>Test-window checkpoint is weak; no production success or business impact is claimed.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><strong><a href="https://github.com/dhananjaynerkar/case_study_apache_spark">SMART EDUCATION ANALYTICS</a></strong><br><br><strong>DATA · SPARK ML</strong><br><br>OULAD case study covering RDDs, DataFrames, Spark SQL, ETL, Spark ML, Docker, Kubernetes manifests, and GitHub Actions checks.<br><br>Holdout AUC 0.9706 · accuracy 0.9142 · F1 0.9142 for the documented outcome proxy.</td>
+<td width="50%" valign="top"><strong><a href="https://github.com/dhananjaynerkar/HealthBot">HEALTHBOT</a></strong><br><br><strong>NLP · DENSE RETRIEVAL</strong><br><br>Educational local NLP demo with structured symptom matching, multilingual normalization, dense similarity, and safety rules.<br><br>Not a clinical system and not presented as document RAG.</td>
+</tr>
+</table>
 
-**Deep-learning decision-support workflow · dataset redistribution rights require confirmation**
+## Evidence-Based Capability Matrix
 
-TensorFlow/Keras insurance-fraud workflow with leakage-aware preprocessing, training-only imbalance handling, validation-based threshold selection, and reloadable inference artifacts.
-
-- Documented test checkpoint: ROC-AUC **0.8161**, PR-AUC **0.1829**, and fraud recall **0.8811** at threshold **0.30**.
-- Intended to support investigation, not automatically reject claims.
-
-### [Insurance Fraud and Claim Risk Pipeline](https://github.com/dhananjaynerkar/insurerisk)
-
-**Evaluation-aware local ML pipeline**
-
-Time-aware tabular workflow with leakage auditing, temporal features, imbalance handling, threshold tuning, business-loss analysis, serialized artifacts, and Streamlit scoring.
-
-- Documents temporal validation, evaluation boundaries, input provenance, and model-selection trade-offs.
-- The recorded test-window checkpoint is weak; no production success or business impact is claimed.
-
-### [Smart Education Analytics with PySpark](https://github.com/dhananjaynerkar/case_study_apache_spark)
-
-**Academic case study · local Docker/Kubernetes packaging · not a production Spark cluster**
-
-OULAD-based workflow covering RDDs, DataFrames, Spark SQL, ETL feature preparation, and Spark ML classification.
-
-- Includes architecture documentation, notebook runner, generated metrics, Dockerfile, Kubernetes manifests, and GitHub Actions checks.
-- Reported holdout metrics: AUC **0.9706**, accuracy **0.9142**, and F1 **0.9142** for the provided case-study outcome proxy.
-
-## AI/ML Engineering Capabilities
-
-- **Retrieval systems:** dense retrieval, hybrid search, pgvector, rank fusion, reranking, page-level provenance, and access-controlled context.
-- **LLM applications:** local inference, grounded generation, prompt controls, output validation, citation checks, and no-evidence handling.
-- **Machine learning:** feature engineering, leakage auditing, temporal validation, class-imbalance handling, threshold tuning, and task-appropriate metrics.
-- **AI application engineering:** FastAPI services, PostgreSQL-backed workflows, Streamlit scoring, readiness checks, tests, and serialized artifacts.
+| Capability | Evidence level | Repository proof |
+|---|---|---|
+| **Grounded RAG and local LLM applications** | **PRIMARY** | [Port RAG](https://github.com/dhananjaynerkar/ai_powered_port_management_system) — retrieval, local generation, citation validation, ACLs |
+| **Applied ML and evaluation design** | **PRIMARY** | [ClaimShield](https://github.com/dhananjaynerkar/claimshield) · [Insurerisk](https://github.com/dhananjaynerkar/insurerisk) — leakage controls, validation, thresholding, task metrics |
+| **AI application engineering** | **DEMONSTRATED** | Port RAG, [HealthBot](https://github.com/dhananjaynerkar/HealthBot), and Insurerisk — APIs, local apps, readiness, artifacts, tests |
+| **Data engineering and distributed ML** | **DEMONSTRATED** | [Spark case study](https://github.com/dhananjaynerkar/case_study_apache_spark) — Spark ETL, Spark ML, Docker/Kubernetes packaging, CI |
 
 ## Engineering Practices
 
@@ -131,5 +135,4 @@ GitHub activity is visible in the native contribution graph on this profile. It 
 - Portfolio: https://portfolio-dhananjay-pi.vercel.app/
 - GitHub Pages: https://dhananjaynerkar.github.io/
 - GitHub: https://github.com/dhananjaynerkar
-
 
