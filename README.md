@@ -69,6 +69,8 @@ This is a verified capability path across the portfolio, not a claim that one re
 </tr>
 </table>
 
+<img src="assets/port_rag_architecture_visual.svg" alt="Verified Port RAG architecture from PDF and OCR ingestion through PostgreSQL full-text and vector retrieval, ranking, access control, local generation, citation validation, and corpus-bounded evaluation" width="100%">
+
 ### [AI-Powered Port Management System](https://github.com/dhananjaynerkar/ai_powered_port_management_system)
 
 **Local-first prototype · RAG and workflow platform · production deployment not verified**
