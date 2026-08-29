@@ -4,6 +4,8 @@
 
 <img src="assets/ai-ml-portfolio-banner.svg" alt="AI and ML engineering portfolio map: document AI, retrieval, models, and applications" width="100%">
 
+<img src="assets/ai_ml_stack_visual.svg" alt="Verified AI and ML technology stack grouped into RAG and LLM applications, applied machine learning and evaluation, and AI application engineering" width="100%">
+
 I build evidence-grounded AI applications and evaluation-aware machine-learning systems with Python.
 
 My strongest public work combines local LLM inference, document ingestion, embeddings, hybrid retrieval, pgvector, reranking, citations, access control, model artifacts, and reproducible evaluation.
